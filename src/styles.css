@@ -1,0 +1,85 @@
+
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    padding: 60px;
+    line-height: 1.6; 
+    color: #333; 
+}
+
+
+input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: #333; 
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    transition: border-color 0.3s ease; 
+}
+
+input:focus {
+    border-color: rgb(150, 50, 200); 
+}
+
+
+h2 {
+    font-size: 1.8rem; 
+    margin-bottom: 10px; 
+}
+
+h3 {
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
+    color: rgb(97, 32, 158); 
+}
+
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.card p {
+    font-size: 1.2rem; 
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.card img {
+    width: 100%;
+    height: auto; 
+    border-bottom: 1px solid #eee;
+}
